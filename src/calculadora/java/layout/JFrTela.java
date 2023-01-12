@@ -61,16 +61,17 @@ public class JFrTela extends javax.swing.JFrame {
 
         lValor2.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
         lValor2.setHorizontalAlignment(javax.swing.SwingConstants.RIGHT);
-        lValor2.setText("0,00");
+        lValor2.setText("0.00");
 
         lValor.setBackground(new java.awt.Color(255, 255, 255));
         lValor.setFont(new java.awt.Font("Arial", 1, 36)); // NOI18N
         lValor.setHorizontalAlignment(javax.swing.SwingConstants.RIGHT);
-        lValor.setText("0,00");
+        lValor.setText("0.00");
 
-        jPanel1.setLayout(new java.awt.GridLayout(5, 4, 6, 6));
+        jPanel1.setLayout(new java.awt.GridLayout(5, 4));
 
         btAC.setText("AC");
+        btAC.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         btAC.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btACActionPerformed(evt);
@@ -79,9 +80,11 @@ public class JFrTela extends javax.swing.JFrame {
         jPanel1.add(btAC);
 
         btMenosMais.setText("+/-");
+        btMenosMais.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         jPanel1.add(btMenosMais);
 
         btPorcentagem.setText("%");
+        btPorcentagem.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         btPorcentagem.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btPorcentagemActionPerformed(evt);
@@ -90,6 +93,7 @@ public class JFrTela extends javax.swing.JFrame {
         jPanel1.add(btPorcentagem);
 
         btDivisao.setText("/");
+        btDivisao.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         btDivisao.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btDivisaoActionPerformed(evt);
@@ -98,6 +102,7 @@ public class JFrTela extends javax.swing.JFrame {
         jPanel1.add(btDivisao);
 
         bt7.setText("7");
+        bt7.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         bt7.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 bt7ActionPerformed(evt);
@@ -106,6 +111,7 @@ public class JFrTela extends javax.swing.JFrame {
         jPanel1.add(bt7);
 
         bt8.setText("8");
+        bt8.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         bt8.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 bt8ActionPerformed(evt);
@@ -114,6 +120,7 @@ public class JFrTela extends javax.swing.JFrame {
         jPanel1.add(bt8);
 
         bt9.setText("9");
+        bt9.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         bt9.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 bt9ActionPerformed(evt);
@@ -122,6 +129,7 @@ public class JFrTela extends javax.swing.JFrame {
         jPanel1.add(bt9);
 
         btMultiplicacao.setText("*");
+        btMultiplicacao.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         btMultiplicacao.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btMultiplicacaoActionPerformed(evt);
@@ -130,6 +138,7 @@ public class JFrTela extends javax.swing.JFrame {
         jPanel1.add(btMultiplicacao);
 
         bt4.setText("4");
+        bt4.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         bt4.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 bt4ActionPerformed(evt);
@@ -138,6 +147,7 @@ public class JFrTela extends javax.swing.JFrame {
         jPanel1.add(bt4);
 
         bt5.setText("5");
+        bt5.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         bt5.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 bt5ActionPerformed(evt);
@@ -146,6 +156,7 @@ public class JFrTela extends javax.swing.JFrame {
         jPanel1.add(bt5);
 
         bt6.setText("6");
+        bt6.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         bt6.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 bt6ActionPerformed(evt);
@@ -154,6 +165,7 @@ public class JFrTela extends javax.swing.JFrame {
         jPanel1.add(bt6);
 
         btMenos.setText("-");
+        btMenos.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         btMenos.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btMenosActionPerformed(evt);
@@ -162,6 +174,7 @@ public class JFrTela extends javax.swing.JFrame {
         jPanel1.add(btMenos);
 
         bt1.setText("1");
+        bt1.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         bt1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 bt1ActionPerformed(evt);
@@ -170,6 +183,7 @@ public class JFrTela extends javax.swing.JFrame {
         jPanel1.add(bt1);
 
         bt2.setText("2");
+        bt2.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         bt2.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 bt2ActionPerformed(evt);
@@ -178,6 +192,7 @@ public class JFrTela extends javax.swing.JFrame {
         jPanel1.add(bt2);
 
         bt3.setText("3");
+        bt3.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         bt3.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 bt3ActionPerformed(evt);
@@ -186,6 +201,7 @@ public class JFrTela extends javax.swing.JFrame {
         jPanel1.add(bt3);
 
         btMais.setText("+");
+        btMais.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         btMais.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btMaisActionPerformed(evt);
@@ -194,6 +210,7 @@ public class JFrTela extends javax.swing.JFrame {
         jPanel1.add(btMais);
 
         bt0.setText("0");
+        bt0.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         bt0.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 bt0ActionPerformed(evt);
@@ -201,7 +218,8 @@ public class JFrTela extends javax.swing.JFrame {
         });
         jPanel1.add(bt0);
 
-        btVirgula.setText(",");
+        btVirgula.setText(".");
+        btVirgula.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         btVirgula.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btVirgulaActionPerformed(evt);
@@ -210,9 +228,16 @@ public class JFrTela extends javax.swing.JFrame {
         jPanel1.add(btVirgula);
 
         btSobre.setText("?");
+        btSobre.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        btSobre.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btSobreActionPerformed(evt);
+            }
+        });
         jPanel1.add(btSobre);
 
         btIgual.setText("=");
+        btIgual.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         btIgual.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btIgualActionPerformed(evt);
@@ -245,6 +270,7 @@ public class JFrTela extends javax.swing.JFrame {
         );
 
         pack();
+        setLocationRelativeTo(null);
     }// </editor-fold>//GEN-END:initComponents
 
     private void bt7ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_bt7ActionPerformed
@@ -288,7 +314,7 @@ public class JFrTela extends javax.swing.JFrame {
     }//GEN-LAST:event_bt0ActionPerformed
 
     private void btVirgulaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btVirgulaActionPerformed
-        digita(",");
+        digita(".");
     }//GEN-LAST:event_btVirgulaActionPerformed
 
     private void bt3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_bt3ActionPerformed
@@ -329,6 +355,10 @@ public class JFrTela extends javax.swing.JFrame {
         opr = "%";
         limpa();
     }//GEN-LAST:event_btPorcentagemActionPerformed
+
+    private void btSobreActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btSobreActionPerformed
+        new Sobre().setVisible(true);
+    }//GEN-LAST:event_btSobreActionPerformed
   
 // Verifica qual foi o PRIMEIRO numero digitado.
     
@@ -372,46 +402,21 @@ num2 = Double.parseDouble(lValor.getText());
             default:
                 break;
         } 
-}
-    
-// Recebe o valor total da soma
-    
-    private String DoubleToString(Double numero){
-        if (numero != null){
-            DecimalFormat formato = new DecimalFormat("##,###,##0.00" , new DecimalFormatSymbols(new Locale("pt", "BR")));
-            formato.setParseBigDecimal(true);
-            return formato.format(numero);
-        }
-        return "";
-    }
-    
-// Converte de String pra Double
-    
-    private Double stringToDouble(String numero){
-        NumberFormat nf = NumberFormat.getInstance();
-        Double dv = null;
-        try {
-            dv = nf.parse(numero).doubleValue();
-        } catch (ParseException ex){
-        
-    }
-        return dv;
- }
-    
+}    
 // Limpa os numeros
     
     private void limpa(){
-        lValor.setText("0,00");
+        lValor.setText("0.00");
     }
 
     
 // Coloca os numero pressionados no display da calculadora
     
     private void digita(String caracter) {
-        if (lValor.getText().equals("0,00")){
+        if (lValor.getText().equals("0.00")){
             lValor.setText(caracter);
         } else {
-            if (caracter.equals(",") && lValor.getText().contains(",")){
+            if (caracter.equals(".") && lValor.getText().contains(".")){
                 
             } else {
             lValor.setText(lValor.getText().concat(caracter));

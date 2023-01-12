@@ -5,6 +5,9 @@
 package calculadora.java;
 
 import calculadora.java.layout.JFrTela;
+import com.formdev.flatlaf.FlatIntelliJLaf;
+import javax.swing.UIManager;
+import javax.swing.UnsupportedLookAndFeelException;
 
 /**
  *
@@ -13,7 +16,11 @@ import calculadora.java.layout.JFrTela;
 public class Principal {     
     
     public static void main(String[] args) {
-                   
+        try {
+        UIManager.setLookAndFeel(new FlatIntelliJLaf());
+        /* Create and display the form */
+    } catch (UnsupportedLookAndFeelException e) {
+}             
         java.awt.EventQueue.invokeLater(new Runnable() {
             public void run() {
                 new JFrTela().setVisible(true);
